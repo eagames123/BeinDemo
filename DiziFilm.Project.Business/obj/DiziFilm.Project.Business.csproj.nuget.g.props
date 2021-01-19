@@ -15,4 +15,7 @@
   <PropertyGroup>
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
   </PropertyGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgPostSharp Condition=" '$(PkgPostSharp)' == '' ">C:\Users\cerebrum\.nuget\packages\postsharp\4.2.17</PkgPostSharp>
+  </PropertyGroup>
 </Project>

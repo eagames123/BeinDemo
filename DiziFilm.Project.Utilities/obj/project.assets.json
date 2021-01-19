@@ -564,28 +564,13 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
-      "PostSharp/6.8.7": {
-        "type": "package",
-        "dependencies": {
-          "PostSharp.Redist": "[6.8.7, 7.0.0)"
-        },
-        "compile": {
-          "lib/netstandard1.0/_._": {}
-        },
-        "runtime": {
-          "lib/netstandard1.0/_._": {}
-        },
-        "build": {
-          "build/_._": {}
-        }
-      },
-      "PostSharp.Redist/6.8.7": {
+      "PostSharp/4.2.17": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/PostSharp.dll": {}
+          "lib/net35-client/PostSharp.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/PostSharp.dll": {}
+          "lib/net35-client/PostSharp.dll": {}
         }
       },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
@@ -1888,7 +1873,7 @@
           "FluentValidation": "6.4.1",
           "Microsoft.AspNetCore.Hosting": "2.2.7",
           "Microsoft.EntityFrameworkCore": "5.0.2",
-          "PostSharp": "6.8.7"
+          "PostSharp": "4.2.17"
         },
         "compile": {
           "bin/placeholder/DiziFilm.Core.dll": {}
@@ -2640,64 +2625,28 @@
         "packageIcon.png"
       ]
     },
-    "PostSharp/6.8.7": {
-      "sha512": "R1YwqAaXvWsPR1Y96Wd0GCqY56v0RK8zCZF1s69OD12haqNhEBkPGEkUio6tKsvlwmSpasRLGD0F7OFJI9wMeg==",
+    "PostSharp/4.2.17": {
+      "sha512": "b7THtwQmAxkDwo5+AGIE6mysPx8QY/v2rV6yxfh8ByWkidZ70V5Ssy1sqIK9ao4wMec2T3r1obUGxrR/lpIf2A==",
       "type": "package",
-      "path": "postsharp/6.8.7",
+      "path": "postsharp/4.2.17",
+      "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "LICENSE.md",
-        "THIRD-PARTY-NOTICES.html",
-        "build/PostSharp-Tools.7z",
-        "build/PostSharp.BeforeTargetFrameworkInference.targets",
-        "build/PostSharp.Version.properties",
-        "build/PostSharp.properties",
-        "build/PostSharp.props",
-        "build/PostSharp.targets",
-        "build/PostSharp.tasks",
-        "build/_common/unzipper/SharpCompress.dll",
-        "build/_common/unzipper/System.Runtime.CompilerServices.Unsafe.dll",
-        "build/_common/unzipper/System.Text.Encoding.CodePages.dll",
-        "build/_common/unzipper/runtimes/win/lib/netcoreapp2.0/System.Text.Encoding.CodePages.dll",
-        "build/_common/unzipper/unzipper.deps.json",
-        "build/_common/unzipper/unzipper.dll",
-        "build/_common/unzipper/unzipper.exe",
-        "build/_common/unzipper/unzipper.exe.config",
-        "build/_common/unzipper/unzipper.pdb",
-        "build/_common/unzipper/unzipper.runtimeconfig.json",
-        "build/net472/PostSharp.MSBuild.v6.8.7.Release.dll",
-        "build/net472/PostSharp.MSBuild.v6.8.7.Release.pdb",
-        "build/netcoreapp2.1/PostSharp.MSBuild.v6.8.7.Release.dll",
-        "build/netcoreapp2.1/PostSharp.MSBuild.v6.8.7.Release.pdb",
-        "icon.png",
-        "lib/net35-client/_._",
-        "lib/netstandard1.0/_._",
-        "postsharp.6.8.7.nupkg.sha512",
-        "postsharp.nuspec"
-      ]
-    },
-    "PostSharp.Redist/6.8.7": {
-      "sha512": "veAjrtlf0/bWfv7qNvJxidIiJfz/YzftKgEo/bFbaC5oY3yY9s9U4jxOBFvM6aujYIBKwnwEMcZOqneUwiKhxw==",
-      "type": "package",
-      "path": "postsharp.redist/6.8.7",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.md",
-        "icon.png",
         "lib/net35-client/PostSharp.dll",
         "lib/net35-client/PostSharp.xml",
-        "lib/net45/PostSharp.dll",
-        "lib/net45/PostSharp.xml",
-        "lib/net5.0/PostSharp.dll",
-        "lib/net5.0/PostSharp.xml",
-        "lib/netstandard1.3/PostSharp.dll",
-        "lib/netstandard1.3/PostSharp.xml",
-        "lib/netstandard2.0/PostSharp.dll",
-        "lib/netstandard2.0/PostSharp.xml",
-        "postsharp.redist.6.8.7.nupkg.sha512",
-        "postsharp.redist.nuspec"
+        "lib/portable-net4+sl5+netcore45+wpa81+wp8/PostSharp.dll",
+        "lib/portable-net4+sl5+netcore45+wpa81+wp8/PostSharp.xml",
+        "postsharp.4.2.17.nupkg.sha512",
+        "postsharp.nuspec",
+        "tools/PostSharp-Tools.exe",
+        "tools/PostSharp.MSBuild.v4.2.17.Release.dll",
+        "tools/PostSharp.Version.properties",
+        "tools/PostSharp.properties",
+        "tools/PostSharp.targets",
+        "tools/PostSharp.tasks",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
       ]
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
@@ -6559,6 +6508,16 @@
       "warningLevel": 1,
       "message": "FluentValidation 6.4.1 depends on System.Text.RegularExpressions (>= 4.0.12) but System.Text.RegularExpressions 4.0.12 was not found. An approximate best match of System.Text.RegularExpressions 4.1.0 was resolved.",
       "libraryId": "System.Text.RegularExpressions",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'PostSharp 4.2.17' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "PostSharp",
       "targetGraphs": [
         ".NETCoreApp,Version=v3.1"
       ]

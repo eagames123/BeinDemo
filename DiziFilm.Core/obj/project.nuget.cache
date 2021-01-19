@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "TJ7G7sVV9yrFr/mxqJQxKyuNUTzU6KzCTsUirVxM5mmPZ++Ta++30c9GBh5TOF9ThtLOl9azh+DYhM64oXq6Xg==",
+  "dgSpecHash": "GO0Hy0mctYFW8atttkyAPGzR/pvLY3L1BUilrhQJQ0cO4IUg0GXCJYbliSijEbH9m7mvLGxs+L+O87+6qWDCEQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\cerebrum\\source\\repos\\DiziFilm\\DiziFilm.Core\\DiziFilm.Core.csproj",
   "expectedPackageFiles": [
@@ -39,8 +39,7 @@
     "C:\\Users\\cerebrum\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\cerebrum\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\cerebrum\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
-    "C:\\Users\\cerebrum\\.nuget\\packages\\postsharp\\6.8.7\\postsharp.6.8.7.nupkg.sha512",
-    "C:\\Users\\cerebrum\\.nuget\\packages\\postsharp.redist\\6.8.7\\postsharp.redist.6.8.7.nupkg.sha512",
+    "C:\\Users\\cerebrum\\.nuget\\packages\\postsharp\\4.2.17\\postsharp.4.2.17.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
@@ -130,6 +129,16 @@
       "warningLevel": 1,
       "message": "FluentValidation 6.4.1 depends on System.Text.RegularExpressions (>= 4.0.12) but System.Text.RegularExpressions 4.0.12 was not found. An approximate best match of System.Text.RegularExpressions 4.1.0 was resolved.",
       "libraryId": "System.Text.RegularExpressions",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'PostSharp 4.2.17' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "PostSharp",
       "targetGraphs": [
         ".NETCoreApp,Version=v3.1"
       ]

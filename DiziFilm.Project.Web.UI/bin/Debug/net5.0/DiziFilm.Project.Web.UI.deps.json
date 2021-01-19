@@ -1148,20 +1148,15 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
-      "PostSharp/6.8.7": {
-        "dependencies": {
-          "PostSharp.Redist": "6.8.7"
-        }
-      },
-      "PostSharp.Redist/6.8.7": {
+      "PostSharp/4.2.17": {
         "runtime": {
-          "lib/net5.0/PostSharp.dll": {
-            "assemblyVersion": "6.8.7.0",
-            "fileVersion": "6.8.7.0"
+          "lib/net35-client/PostSharp.dll": {
+            "assemblyVersion": "4.2.17.0",
+            "fileVersion": "4.2.17.0"
           }
         },
         "compile": {
-          "lib/net5.0/PostSharp.dll": {}
+          "lib/net35-client/PostSharp.dll": {}
         }
       },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
@@ -2011,7 +2006,7 @@
           "FluentValidation": "9.4.0",
           "Microsoft.AspNetCore.Hosting": "2.2.7",
           "Microsoft.EntityFrameworkCore": "5.0.2",
-          "PostSharp": "6.8.7"
+          "PostSharp": "4.2.17"
         },
         "runtime": {
           "DiziFilm.Core.dll": {}
@@ -4195,19 +4190,12 @@
       "path": "newtonsoft.json/12.0.3",
       "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
     },
-    "PostSharp/6.8.7": {
+    "PostSharp/4.2.17": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-R1YwqAaXvWsPR1Y96Wd0GCqY56v0RK8zCZF1s69OD12haqNhEBkPGEkUio6tKsvlwmSpasRLGD0F7OFJI9wMeg==",
-      "path": "postsharp/6.8.7",
-      "hashPath": "postsharp.6.8.7.nupkg.sha512"
-    },
-    "PostSharp.Redist/6.8.7": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-veAjrtlf0/bWfv7qNvJxidIiJfz/YzftKgEo/bFbaC5oY3yY9s9U4jxOBFvM6aujYIBKwnwEMcZOqneUwiKhxw==",
-      "path": "postsharp.redist/6.8.7",
-      "hashPath": "postsharp.redist.6.8.7.nupkg.sha512"
+      "sha512": "sha512-b7THtwQmAxkDwo5+AGIE6mysPx8QY/v2rV6yxfh8ByWkidZ70V5Ssy1sqIK9ao4wMec2T3r1obUGxrR/lpIf2A==",
+      "path": "postsharp/4.2.17",
+      "hashPath": "postsharp.4.2.17.nupkg.sha512"
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
       "type": "package",
