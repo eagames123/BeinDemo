@@ -1,0 +1,58 @@
+﻿@model DiziFilm.Project.Web.UI.Models.HomeWebUIViewModel
+
+
+@{
+    Layout = "_Layout";
+}
+
+<section class="content">
+    <div class="content__head">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="content__title">Film Listesi</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- content tabs -->
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="tab-1" role="tabpanel" aria-labelledby="1-tab">
+                <div class="row">
+                    
+                    @foreach (var item in Model.FilmIndexViewModel.FilmListesi)
+                    {
+                        <div class="col-6 col-sm-12 col-lg-6">
+                            <div class="card card--list">
+                                <div class="row">
+                                    <div class="col-12 col-sm-4">
+                                        <div class="card__cover">
+                                            <img src="https://pyxis.nymag.com/v1/imgs/dc7/31a/c3891f0eae8dae683732a60f8a9d7802dc-wachowskis.rsquare.w700.jpg" alt="">
+                                            <a asp-action="Detail" asp-controller="Film" asp-route-id="@item.id" class="card__play">
+                                                <i class="icon ion-ios-play"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-8">
+                                        <div class="card__content">
+                                            <h3 class="card__title"><a asp-action="Detail" asp-controller="Film" asp-route-id="@item.id">@item.Name</a></h3>
+                                            <span class="card__category">
+                                                @item.Category
+                                            </span>
+                                            <div class="card__description">
+                                                <p>@item.Detail</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,14 @@
+C:\Users\cerebrum\source\repos\DiziFilm\DiziFilm.Project.Business\obj\Debug\netcoreapp3.1\DiziFilm.Project.Business.csprojAssemblyReference.cache
+C:\Users\cerebrum\source\repos\DiziFilm\DiziFilm.Project.Business\obj\Debug\netcoreapp3.1\DiziFilm.Project.Business.AssemblyInfoInputs.cache
+C:\Users\cerebrum\source\repos\DiziFilm\DiziFilm.Project.Business\obj\Debug\netcoreapp3.1\DiziFilm.Project.Business.AssemblyInfo.cs
+C:\Users\cerebrum\source\repos\DiziFilm\DiziFilm.Project.Business\obj\Debug\netcoreapp3.1\DiziFilm.Project.Business.csproj.CoreCompileInputs.cache
+C:\Users\cerebrum\source\repos\DiziFilm\DiziFilm.Project.Business\bin\Debug\netcoreapp3.1\DiziFilm.Project.Business.deps.json
+C:\Users\cerebrum\source\repos\DiziFilm\DiziFilm.Project.Business\bin\Debug\netcoreapp3.1\DiziFilm.Project.Business.dll
+C:\Users\cerebrum\source\repos\DiziFilm\DiziFilm.Project.Business\bin\Debug\netcoreapp3.1\DiziFilm.Project.Business.pdb
+C:\Users\cerebrum\source\repos\DiziFilm\DiziFilm.Project.Business\bin\Debug\netcoreapp3.1\DiziFilm.Core.dll
+C:\Users\cerebrum\source\repos\DiziFilm\DiziFilm.Project.Business\bin\Debug\netcoreapp3.1\DiziFilm.Project.Entities.dll
+C:\Users\cerebrum\source\repos\DiziFilm\DiziFilm.Project.Business\bin\Debug\netcoreapp3.1\DiziFilm.Core.pdb
+C:\Users\cerebrum\source\repos\DiziFilm\DiziFilm.Project.Business\bin\Debug\netcoreapp3.1\DiziFilm.Project.Entities.pdb
+C:\Users\cerebrum\source\repos\DiziFilm\DiziFilm.Project.Business\obj\Debug\netcoreapp3.1\DiziFilm.Project.Business.csproj.CopyComplete
+C:\Users\cerebrum\source\repos\DiziFilm\DiziFilm.Project.Business\obj\Debug\netcoreapp3.1\DiziFilm.Project.Business.dll
+C:\Users\cerebrum\source\repos\DiziFilm\DiziFilm.Project.Business\obj\Debug\netcoreapp3.1\DiziFilm.Project.Business.pdb

@@ -1,0 +1,12 @@
+C:\Users\cerebrum\source\repos\DiziFilm\DiziFilm.Project.Entities\obj\Debug\netcoreapp3.1\DiziFilm.Project.Entities.AssemblyInfoInputs.cache
+C:\Users\cerebrum\source\repos\DiziFilm\DiziFilm.Project.Entities\obj\Debug\netcoreapp3.1\DiziFilm.Project.Entities.AssemblyInfo.cs
+C:\Users\cerebrum\source\repos\DiziFilm\DiziFilm.Project.Entities\obj\Debug\netcoreapp3.1\DiziFilm.Project.Entities.csproj.CoreCompileInputs.cache
+C:\Users\cerebrum\source\repos\DiziFilm\DiziFilm.Project.Entities\bin\Debug\netcoreapp3.1\DiziFilm.Project.Entities.deps.json
+C:\Users\cerebrum\source\repos\DiziFilm\DiziFilm.Project.Entities\bin\Debug\netcoreapp3.1\DiziFilm.Project.Entities.dll
+C:\Users\cerebrum\source\repos\DiziFilm\DiziFilm.Project.Entities\bin\Debug\netcoreapp3.1\DiziFilm.Project.Entities.pdb
+C:\Users\cerebrum\source\repos\DiziFilm\DiziFilm.Project.Entities\bin\Debug\netcoreapp3.1\DiziFilm.Core.dll
+C:\Users\cerebrum\source\repos\DiziFilm\DiziFilm.Project.Entities\bin\Debug\netcoreapp3.1\DiziFilm.Core.pdb
+C:\Users\cerebrum\source\repos\DiziFilm\DiziFilm.Project.Entities\obj\Debug\netcoreapp3.1\DiziFilm.Project.Entities.csprojAssemblyReference.cache
+C:\Users\cerebrum\source\repos\DiziFilm\DiziFilm.Project.Entities\obj\Debug\netcoreapp3.1\DiziFilm.Project.Entities.csproj.CopyComplete
+C:\Users\cerebrum\source\repos\DiziFilm\DiziFilm.Project.Entities\obj\Debug\netcoreapp3.1\DiziFilm.Project.Entities.dll
+C:\Users\cerebrum\source\repos\DiziFilm\DiziFilm.Project.Entities\obj\Debug\netcoreapp3.1\DiziFilm.Project.Entities.pdb

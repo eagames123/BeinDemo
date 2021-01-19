@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbols LinesOfCode="11" PostSharpLinesOfCode="0" EnhancedTypesCount="1" SchemaVersion="1" PostSharpVersion="6.8.7.0" xmlns="http://schemas.postsharp.org/2.0/symbols">
+  <Class Class="#1=T:[DiziFilm.Core]DiziFilm.Core.Aspects.Postsharp.ValidationAspects.MyAspect">
+    <Instance Declaration="#2=M:[DiziFilm.Project.Console]DiziFilm.Project.Console.MyClass::MyMethod()" Id="7d9df9df3eba1f42">
+      <Target LinesAvoided="4">
+        <JoinPoint Advising="#1" Description="#3=Wrapped by advice(s) OnEntry, OnExit" Ordinal="0" />
+      </Target>
+    </Instance>
+  </Class>
+  <Class Class="#4=T:[DiziFilm.Core]DiziFilm.Core.Aspects.Postsharp.ExceptionHandlingAspect">
+    <Instance Declaration="#2" Id="7d9df9dff5256b49">
+      <Target LinesAvoided="2">
+        <JoinPoint Advising="#4" Description="#5=Wrapped by advice(s) OnException" />
+      </Target>
+    </Instance>
+  </Class>
+  <Class Class="#6=T:[DiziFilm.Core]DiziFilm.Core.Aspects.Postsharp.LoggingAspect">
+    <Instance Declaration="#2" Id="7d9df9df6ab4c276">
+      <Target LinesAvoided="2">
+        <JoinPoint Advising="#6" Description="#7=Wrapped by advice(s) OnEntry" Ordinal="2" />
+      </Target>
+    </Instance>
+  </Class>
+  <Annotation Target="#8=M:[DiziFilm.Core]DiziFilm.Core.Aspects.Postsharp.ValidationAspects.MyAspect::OnEntry(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#9=2" Description="#10=PostSharp estimates that 2 lines of code are saved every time this advice is applied. Use the [LinesOfCodeAvoided] attribute on the aspect or specify the LinesOfCodeAvoided property on the advice attribute to override this value." />
+  <Annotation Target="#11=M:[DiziFilm.Core]DiziFilm.Core.Aspects.Postsharp.ValidationAspects.MyAspect::OnExit(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#9" Description="#10" />
+  <Annotation Target="#12=M:[DiziFilm.Core]DiziFilm.Core.Aspects.Postsharp.ExceptionHandlingAspect::OnException(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#9" Description="#10" />
+  <Annotation Target="#13=M:[DiziFilm.Core]DiziFilm.Core.Aspects.Postsharp.LoggingAspect::OnEntry(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#9" Description="#10" />
+</Symbols>
