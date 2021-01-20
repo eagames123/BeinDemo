@@ -1,0 +1,42 @@
+﻿@model DiziFilm.Project.Web.UI.Areas.Admin.Models.AdminHomeViewIndexModel
+
+@{
+    ViewData["Title"] = "AddNewFilm";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+
+<div id="content">
+
+
+    <div class="container-fluid">
+        <p>Ekle</p>
+        <form class="user" asp-action="AddNewFilmCreate" asp-controller="HomeAdmin" method="post" asp-area="Admin">
+            <div class="form-group">
+                <span>Name</span>
+                <div class="form-group">
+                    <input asp-for="@Model.Film.Name" type="text" placeholder="Fİlm Adı" class="form-control">
+                    <span class="alert-danger" asp-validation-for="@Model.Film.Name"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <span>Detail</span>
+                <input asp-for="@Model.Film.Detail" type="text" placeholder="Detay" class="form-control">
+                <span class="alert-danger" asp-validation-for="@Model.Film.Detail"></span>
+            </div>
+            <div class="form-group">
+                <span>Category</span>
+                <input asp-for="@Model.Film.Category" type="text" placeholder="Kategori" class="form-control">
+                <span class="alert-danger" asp-validation-for="@Model.Film.Category"></span>
+            </div>
+            <div class="form-group">
+                <span>Fragman</span>
+                <input asp-for="@Model.Film.Fragman" type="text" placeholder="Fragman" class="form-control">
+                <span class="alert-danger" asp-validation-for="@Model.Film.Fragman"></span>
+            </div>
+            <input type="submit" class="btn btn-primary btn-user btn-block" value="Ekle" />
+        </form>
+
+    </div>
+
+</div>

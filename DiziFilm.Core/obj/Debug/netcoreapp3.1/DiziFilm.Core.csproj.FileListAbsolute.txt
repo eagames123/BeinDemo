@@ -1,0 +1,9 @@
+C:\Users\cerebrum\source\repos\DiziFilm\DiziFilm.Core\obj\Debug\netcoreapp3.1\DiziFilm.Core.AssemblyInfoInputs.cache
+C:\Users\cerebrum\source\repos\DiziFilm\DiziFilm.Core\obj\Debug\netcoreapp3.1\DiziFilm.Core.AssemblyInfo.cs
+C:\Users\cerebrum\source\repos\DiziFilm\DiziFilm.Core\obj\Debug\netcoreapp3.1\DiziFilm.Core.csproj.CoreCompileInputs.cache
+C:\Users\cerebrum\source\repos\DiziFilm\DiziFilm.Core\bin\Debug\netcoreapp3.1\DiziFilm.Core.deps.json
+C:\Users\cerebrum\source\repos\DiziFilm\DiziFilm.Core\bin\Debug\netcoreapp3.1\DiziFilm.Core.dll
+C:\Users\cerebrum\source\repos\DiziFilm\DiziFilm.Core\bin\Debug\netcoreapp3.1\DiziFilm.Core.pdb
+C:\Users\cerebrum\source\repos\DiziFilm\DiziFilm.Core\obj\Debug\netcoreapp3.1\DiziFilm.Core.dll
+C:\Users\cerebrum\source\repos\DiziFilm\DiziFilm.Core\obj\Debug\netcoreapp3.1\DiziFilm.Core.pdb
+C:\Users\cerebrum\source\repos\DiziFilm\DiziFilm.Core\obj\Debug\netcoreapp3.1\DiziFilm.Core.csprojAssemblyReference.cache
